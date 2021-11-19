@@ -1,6 +1,5 @@
 package com.company;
 
-import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Random;
 
@@ -25,7 +24,6 @@ public class Main {
 
     public static int guessColour(String[] list) {
         int points = 0;
-        System.out.println(Arrays.toString(list));
 
         for (int i = 0; i < 10; i++) {
             System.out.println("guess the next colour");
